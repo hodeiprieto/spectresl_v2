@@ -75,7 +75,7 @@
     </button>
     
 </body>
-</html>'
+</html>';
             }
         } catch (PDOException $e) {
             echo "Error al insertar en Postgres: " . $e->getMessage();
