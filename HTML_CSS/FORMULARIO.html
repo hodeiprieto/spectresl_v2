@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Componentes y Dispositivos | SPECTRE SL</title>
+  <title>Formulario de registro | SPECTRE SL</title>
 
 
   <link rel="stylesheet" href="FORMULARIO.css">
@@ -29,7 +29,7 @@
 
    <form action="/post.php" method="POST">
 
-         <h1>FORMULARIO DE CONTACTO</h1>
+         <h1>FORMULARIO DE REGISTRO</h1>
 
         <label>Nombre:</label><br>
         <input type="text" name="nombre" required><br><br>
@@ -37,18 +37,8 @@
         <label>Email:</label><br>
         <input type="email" name="email" required><br><br>
 
-        <label>Tipo:</label><br>
-        <select name="tipo" required>
-            <option value="Sugerencia">Sugerencia</option>
-            <option value="Opinion">Opinión</option>
-            <option value="Solicitud de informacion">Solicitud de información</option>
-        </select><br><br>
-
-        <label>Asunto:</label><br>
-        <input type="text" name="asunto" required><br><br>
-
-        <label>Mensaje:</label><br>
-        <textarea name="mensaje" rows="6" cols="45" required></textarea><br><br>
+        <label>Contraseña:</label><br>
+        <input type="pass" name="contrasenia" required><br><br>
 
         <button type="submit">Enviar</button>
 
@@ -67,6 +57,7 @@
 
 </body>
 </html>
+
 
 
 
