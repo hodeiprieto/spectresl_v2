@@ -90,7 +90,7 @@
                         </html>';
             };
         } catch (PDOException $e) {
-            echo "Error al insertar en Postgres: " . $e->getMessage();
+            /* echo "Error al insertar en Postgres: " . $e->getMessage(); */
 
             if ($e->getCode() == 23505){
             echo '<!DOCTYPE html>
